@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cloudflare AI Chat</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Cloudflare AI Chat</h1>
+        <div class="model">
+          <label for="model">Model</label>
+          <input id="model" type="text" placeholder="@cf/meta/llama-3.3-8b-instruct" />
+        </div>
+      </header>
+      <main id="chat"></main>
+      <form id="composer">
+        <button type="button" id="mic" title="Voice input">🎤</button>
+        <input id="message" autocomplete="off" placeholder="Type a message..." />
+        <button type="submit">Send</button>
+      </form>
+      <footer>
+        <small>State is persisted per browser via Durable Objects.</small>
+      </footer>
+    </div>
+    <script src="/app.js" type="module"></script>
+  </body>
+  </html>
+
+
