@@ -41,10 +41,5 @@ The browser gets a `cf_chat_session` cookie. That cookie maps to a Durable Objec
 - Wrangler not found: use `npx wrangler@latest ...` or `npm i -D wrangler` and run scripts.
 - Workers types error in your IDE: either install `@cloudflare/workers-types` (`npm i -D @cloudflare/workers-types`) or remove the explicit `types` entry in `tsconfig.json`.
 
-## Next steps
-- Enable streaming responses for a more “live” feel
-- Add TTS (text-to-speech) for voice replies
-- Swap in a different model or external provider if you prefer
-=======
-# cf_ai_
+
 
