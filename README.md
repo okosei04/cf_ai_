@@ -1,6 +1,6 @@
 # Cloudflare Workers AI Chat
 
-A tiny, practical starter that lets you chat with an LLM on Cloudflare. It uses Workers AI for inference, a Durable Object for memory, and a simple web UI (with optional voice input).
+A practical starter that lets you chat with an LLM on Cloudflare. It uses Workers AI for inference, a Durable Object for memory, and a simple web UI (with optional voice input).
 
 ## What’s inside
 - LLM: Workers AI (default `@cf/meta/llama-3.3-8b-instruct`)
@@ -15,8 +15,6 @@ npx wrangler@latest login
 npx wrangler@latest dev --remote
 ```
 Then open http://localhost:8787 and start chatting.
-
-Tip: `--remote` runs the Worker in Cloudflare’s environment so Workers AI is available during local dev.
 
 ## Deploy
 ```powershell
