@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloudflare Workers AI Chat
 
 A tiny, practical starter that lets you chat with an LLM on Cloudflare. It uses Workers AI for inference, a Durable Object for memory, and a simple web UI (with optional voice input).
@@ -45,3 +46,6 @@ The browser gets a `cf_chat_session` cookie. That cookie maps to a Durable Objec
 - Enable streaming responses for a more “live” feel
 - Add TTS (text-to-speech) for voice replies
 - Swap in a different model or external provider if you prefer
+=======
+# cf_ai_
+>>>>>>> origin/main
